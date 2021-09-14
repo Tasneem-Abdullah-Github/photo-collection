@@ -12,7 +12,6 @@ const loadPhotos = () => {
     .then(res => res.json())
     .then(data => showPhotos(data))
 }
-
 const toggleSpinner = displayStyle => {
     document.getElementById('spinner').style.display = displayStyle;
   }

@@ -3,7 +3,30 @@
 <title>My Photo Collection</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 <link rel="shortcut icon" href="https://icons.iconarchive.com/icons/bokehlicia/captiva/256/multimedia-photo-manager-icon.png" type="image/x-icon"></head>
-<body id="body"><h3 class="text-center text-info">My Photo Collection</h3><div class="w-50 mx-auto my-3"><input type="text" name="" id="search-field" placeholder="Search Photos" class="p-2 m-1"><button class="btn-primary btn m-1" id="search-btn" onclick="loadPhotos(), showText()">Search</button><button class="btn-primary btn m-1" onclick="location.reload();">Again Search</button></div><div id="spinner" class="text-primary text-center" style="display: none;"><img src="https://i.pinimg.com/originals/f9/41/ae/f941ae9d16fd7d2957eea6e5b1100d1e.gif" alt="" width="550px"></div></div>
+<body id="body"><h3 class="text-center text-info">My Photo Collection</h3><nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="https://www.freeiconspng.com/uploads/multimedia-photo-icon-31.png" alt="" width="100px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://tasneem-abdullah.xyz" target="_blank">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mailto:12tasnimtasnim@gmail.com" target="_blank">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://pixabay.com" target="_blank">Support</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav><div class="w-50 mx-auto my-3"><input type="text" name="" id="search-field" placeholder="Search Photos" class="p-2 m-1"><button class="btn-primary btn m-1" id="search-btn" onclick="loadPhotos(), showText()">Search</button><button class="btn-primary btn m-1" onclick="location.reload();">Again Search</button></div><div id="spinner" class="text-primary text-center" style="display: none;"><img src="https://i.pinimg.com/originals/f9/41/ae/f941ae9d16fd7d2957eea6e5b1100d1e.gif" alt="" width="550px"></div></div>
 <div id="view-photo" class="w-75 d-block mx-auto"><img src="" alt="" id="slider-img" class="img-fluid"></div><footer id="footer"></footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     <script src="js/app.js"></script>
